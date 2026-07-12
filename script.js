@@ -18,9 +18,15 @@ let count = 0;
 
 
 
-function showNote() {
+function showNote(index) {
 
-    document.getElementById("note").innerHTML = notes[count];
+    document.getElementById("note").innerHTML = notes[index];
+
+    if (index === notes.length - 1) {
+        document.getElementById("lock").style.display = "block";
+    }
+
+}
 
     count++;
 
