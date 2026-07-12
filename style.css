@@ -105,3 +105,11 @@ button:hover {
 .flowers button:hover {
     transform: scale(1.2);
 }
+#secret {
+    margin-top: 25px;
+    padding: 25px;
+    background: #fff5fa;
+    border-radius: 25px;
+    font-size: 18px;
+    animation: appear 1.5s ease;
+}
