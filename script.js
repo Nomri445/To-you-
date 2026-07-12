@@ -34,3 +34,18 @@ function showNote() {
 }
 
 }
+function unlock() {
+
+    let answer = document.getElementById("password").value;
+
+    if (answer.toLowerCase() === "maaku") {
+
+        document.getElementById("secret").style.display = "block";
+
+    } else {
+
+        alert("Try again 🌸");
+
+    }
+
+}
