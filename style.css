@@ -17,6 +17,7 @@ body {
     width: 80%;
     max-width: 450px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    position:relative;
 }
 
 h1 {
