@@ -16,12 +16,18 @@ const notes = [
 
 let count = 0;
 
+
+
 function showNote() {
+
     document.getElementById("note").innerHTML = notes[count];
 
     count++;
 
     if (count >= notes.length) {
-        count = 0;
+
+        document.getElementById("final-message").style.display = "block";
+
     }
+
 }
