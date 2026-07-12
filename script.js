@@ -30,7 +30,7 @@ function unlock() {
 
     if (answer.toLowerCase() === "maaku") {
 
-        document.getElementById("secret").style.display = "block";
+        document.getElementById("secret").classList.remove("hidden");
 
     } else {
 
