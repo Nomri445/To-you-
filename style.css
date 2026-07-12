@@ -78,3 +78,18 @@ button:hover {
         transform: translateY(0);
     }
 }
+.butterfly {
+    font-size: 45px;
+    position: relative;
+    animation: fly 4s infinite alternate ease-in-out;
+}
+
+@keyframes fly {
+    from {
+        transform: translateX(-60px) translateY(10px);
+    }
+
+    to {
+        transform: translateX(60px) translateY(-20px);
+    }
+}
