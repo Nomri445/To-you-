@@ -80,7 +80,9 @@ button:hover {
 }
 .butterfly {
     font-size: 45px;
-    position: relative;
+    position: absolute;
+    top: 20px;
+    right: 30px;
     animation: fly 4s infinite alternate ease-in-out;
 }
 
