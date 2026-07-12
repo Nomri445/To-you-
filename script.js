@@ -1,6 +1,6 @@
 function openBox() {
     document.querySelector(".love-box").style.display = "none";
-    document.getElementById("message").style.display = "block";
+    document.getElementById("message").classList.remove("hidden");
 }
 
 const notes = [
