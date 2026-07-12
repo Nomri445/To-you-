@@ -1,17 +1,17 @@
 function openBox() {
     document.querySelector(".love-box").style.display = "none";
     document.getElementById("message").style.display = "block";
-}
-
-const notes = [
-    "🌸 Thank you for being the most beautiful gift in my life.",
-    "🌷 i hope i can make you smile by this .",
-    "🌹 You are someone I really admire .",
-    "🌻 you are very important to me.",
-    "🌼 you are my lucky charm darling.",
-    "🫂 i am always here for you, don't forget.",
-    "💋 so many ummmaaaaaaa.",
-    "💖 i just wanted to remind you that i love you."
+    }
+    
+    const notes = [
+    "🌸 Thank you for being the most beautiful gift in my life. ✨",
+    "🌷 I hope this little surprise can make you smile. 😊",
+    "🌹 You are someone I really admire and appreciate. 💫",
+    "🌻 You are very important to me, always remember that. 💖",
+    "🌼 You are my lucky charm. 🍀",
+    "🫂 I am always here for you. Don't forget that. 🤍",
+    "💋 Sending you so many ummmaaaaaaa. 😘",
+    "💖 I just wanted to remind you that I love you. 🌙✨"
 ];
 
 let count = 0;
@@ -26,8 +26,11 @@ function showNote() {
 
     if (count >= notes.length) {
 
-        document.getElementById("final-message").style.display = "block";
+    document.getElementById("final-message").style.display = "block";
 
-    }
+    document.getElementById("final-message").innerHTML =
+    "🌟💖 You found the secret garden 💖🌟<br>Thank you for being a special part of my life. 🦋🌸";
+
+}
 
 }
